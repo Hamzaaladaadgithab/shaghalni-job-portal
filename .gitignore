@@ -1,0 +1,51 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# PHP dependencies
+/vendor/
+job-app/vendor/
+job-backoffice/vendor/
+job-shared/vendor/
+
+# Node dependencies
+/node_modules/
+job-app/node_modules/
+job-backoffice/node_modules/
+
+# Laravel build files
+job-app/public/build/
+job-backoffice/public/build/
+
+# Laravel storage/cache/logs
+job-app/storage/logs/*
+job-app/storage/framework/cache/*
+job-app/storage/framework/sessions/*
+job-app/storage/framework/views/*
+job-backoffice/storage/logs/*
+job-backoffice/storage/framework/cache/*
+job-backoffice/storage/framework/sessions/*
+job-backoffice/storage/framework/views/*
+
+# Keep folder structure
+!job-app/storage/logs/.gitignore
+!job-app/storage/framework/cache/.gitignore
+!job-app/storage/framework/sessions/.gitignore
+!job-app/storage/framework/views/.gitignore
+!job-backoffice/storage/logs/.gitignore
+!job-backoffice/storage/framework/cache/.gitignore
+!job-backoffice/storage/framework/sessions/.gitignore
+!job-backoffice/storage/framework/views/.gitignore
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
